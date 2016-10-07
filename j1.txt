@@ -1,0 +1,4 @@
+wordfrequency.jar	input.txt
+spout	wordfrequency.ReadFileSpout
+bolt	wordfrequency.SentenceTokenizer
+bolt	wordfrequency.WordCounter
